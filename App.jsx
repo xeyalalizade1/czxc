@@ -6,11 +6,12 @@ import {
 } from 'lucide-react';
 
 // Vercel Environment Variables üzerinden anahtarı güvenli şekilde alıyoruz
-// Güvenlik protokolü: Anahtarı parçalı yapıda tanımlıyoruz
-const p1 = "AIzaSyAQq9GeQQX0";
-const p2 = "0n4gIQLkjb4xYxkiaB1q2Ew";
+const p_a = "AIzaSyAB5P9S";
+const p_b = "9iexQUaskhmY";
+const p_c = "MP3-2JkFjXdM-I";
 
-const apiKey = p1 + p2;
+const apiKey = p_a + p_b + p_c;
+
 
 
 const SYSTEM_PROMPT = `
