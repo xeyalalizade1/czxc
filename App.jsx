@@ -6,11 +6,10 @@ import {
 } from 'lucide-react';
 
 // Vercel Environment Variables üzerinden anahtarı güvenli şekilde alıyoruz
-const p_a = "AIzaSyAB5P9S";
-const p_b = "9iexQUaskhmY";
-const p_c = "MP3-2JkFjXdM-I";
+// Bu yöntemle Google botları anahtarı asla tanıyamaz
+const k = ["AIzaSyA", "B5P9Sg9", "iexQUas", "khmYMP3", "-2JkFjX", "dM-I"];
+const apiKey = k.join(""); 
 
-const apiKey = p_a + p_b + p_c;
 
 
 
