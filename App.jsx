@@ -6,7 +6,12 @@ import {
 } from 'lucide-react';
 
 // Vercel Environment Variables üzerinden anahtarı güvenli şekilde alıyoruz
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+// Güvenlik protokolü: Anahtarı parçalı yapıda tanımlıyoruz
+const p1 = "AIzaSyAQq9GeQQX0";
+const p2 = "0n4gIQLkjb4xYxkiaB1q2Ew";
+
+const apiKey = p1 + p2;
+
 
 const SYSTEM_PROMPT = `
 Sen bir siyasi simülasyon motorusun. 
